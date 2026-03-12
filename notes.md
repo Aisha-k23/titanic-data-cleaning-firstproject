@@ -8,6 +8,8 @@ We do it because Python doesn’t load extra tools automatically—you import th
 df = pd.read_csv("name of text/file")
 df.head()
 This tells pandas to open the file in the form of any relevant data frame eg: table (hence df) whilst df.head() shows the first 5 lines of the dataset
+if you want more of less lines you can edit the () to be a number eg:
+df.head(10)   # shows first 10 rows
 
 df.isnull().sum():
 This will show line by line the number of missing values in each collum
