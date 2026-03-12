@@ -47,3 +47,8 @@ Examples:
 "Female"
 "£12.50" (text, not a number)
 
+**import os
+os.getcwd()
+os.listdir()**
+This helps you find which folder your saved work is in
+
