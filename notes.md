@@ -8,3 +8,35 @@ We do it because Python doesn’t load extra tools automatically—you import th
 df = pd.read_csv("name of text/file")
 df.head()
 This tells pandas to open the file in the form of any relevant data frame eg: table (hence df) whilst df.head() shows the first 5 lines of the dataset
+
+df.isnull().sum():
+This will show line by line the number of missing values in each collum
+
+df_clean = df.dropna()
+df_clean.info()
+this will remove any rows with missing values hence cleaning the dataset
+
+your_dataframe.to_csv("your_filename.csv", index=False)
+This will save your cleaned data set as a cvs file 
+
+df.info()
+This gives a summery of the data set
+
+Types of data types
+1. int (integer) — whole numbers
+These are numbers without decimals.
+Examples: 0, 12, -5, 2024.
+
+2. float (floating‑point number) — decimal numbers
+These are numbers with decimals.
+Examples: 3.14, 0.0, 25.6, -7.89.
+
+3. object — text or mixed data
+This is pandas’ “catch‑all” type.
+It usually means strings (text), but it can also mean mixed values.
+
+Examples:
+"Aisha"
+"Female"
+"£12.50" (text, not a number)
+
