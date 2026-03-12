@@ -21,6 +21,11 @@ This will save your cleaned data set as a cvs file
 
 df.info()
 This gives a summery of the data set
+If it says something is non-null that means you can do the totoal number of values - the non-null to get the nuber of missing values (see example below)
+Age        714 non-null
+Cabin      204 non-null
+Embarked   889 non-null
+
 
 Types of data types
 1. int (integer) — whole numbers
